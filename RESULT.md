@@ -2,7 +2,7 @@ I randomly sampled 300 points from the uniform distribution with mean 0 and vari
 
 There are several hyperparameters including the learning rate, variance of the distribution used to initialize the weights that needs to be tuned to be able to get a better fit. In my first attempt indicated in Figure 1, the algorithm poorly can approximate the input data, even though the MSE is small and it is about 0.4. The learning rate for this approximation is 0.001. In the following fgure, we showed the fitted curve that looks like a straight line, and poorly approximates the input data.
 
-![Picture1](https://user-images.githubusercontent.com/43753085/104083731-98b1c280-5206-11eb-9a01-8590ee989e5a.jpg)
+![Picture1](https://user-images.githubusercontent.com/43753085/104084007-e7605c00-5208-11eb-9d75-a4aaf4ea04f7.png)
 
 Mean square error is computed at each data point and the desired output. It is a monotonically decreasing curve per iteration of the online learning using backpropagation algorithm as idicated in the following figure.
 
